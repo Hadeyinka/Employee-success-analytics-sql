@@ -1,5 +1,6 @@
 # Employee-success-analytics-sql
 SQL analysis of employee retention, performance, turnover and salary patterns for a fictional technology company.
+
 # Employee Success Analytics
 
 ## Project Overview
@@ -20,18 +21,21 @@ The analysis was designed to provide data-driven insights that could support HR 
 The analysis explored the following key questions:
 
 ### Employee Retention
+
 - Who are the longest-serving employees?
 - What is the turnover rate by department?
 - Which employees may be at risk of leaving?
 - What are the main reasons employees leave the company?
 
 ### Employee Performance
+
 - How many employees have left the company?
 - How many employees have performance scores of 5.0 or below 3.5?
 - Which departments have the highest number of employees with extreme performance scores?
 - What is the average performance score by department?
 
 ### Salary Analysis
+
 - What is the company's total salary expense?
 - What is the average salary by job title?
 - How many employees earn above £80,000?
@@ -47,15 +51,15 @@ Marketing recorded the highest departmental turnover rate at **92.86%**, followe
 
 Overall, **28 of the 60 employees** had left the company.
 
-The most common recorded reason for leaving was personal reasons, accounting for **39.29% of exits**, followed by finding another job at **25%**.
+The most common recorded reason for leaving was personal reasons, accounting for **39.29% of exits**, followed by finding another job at **25.00%**.
 
 ### Employee Performance
 
 The analysis identified **47 employees** with a performance score of either 5.0 or below 3.5.
 
-Engineering and Marketing each had **17 employees** within these performance extremes.
+Engineering and Marketing each had **17 employees** within these performance-score categories.
 
-The analysis also identified Grace Wilson in Sales as an employee requiring attention based on an average performance score of **3.43**.
+The analysis also identified Grace Wilson in Sales as requiring attention based on an average performance score of **3.43**.
 
 ### Salary Analysis
 
@@ -82,17 +86,24 @@ Based on the analysis, the project proposed several areas for consideration:
 
 ## Tools & Skills
 
-**SQL**
+**Tools**
+
+- PostgreSQL
+- SQL
+
+**SQL Skills**
 
 - Data aggregation
 - Filtering
+- Sorting
 - Grouping
 - Joins
 - Aggregate functions
-- Performance analysis
-- Employee retention analysis
-- Salary analysis
-- Business-focused data interpretation
+- CASE statements
+- Window functions
+- Date calculations
+- Correlation analysis
+- Numeric formatting
 
 **Business Analysis**
 
@@ -103,13 +114,32 @@ Based on the analysis, the project proposed several areas for consideration:
 
 ## Project Evidence
 
-The original SQL project files are no longer available. The accompanying capstone presentation contains screenshots of the SQL queries and their resulting analysis.
+The repository includes the SQL scripts used for the analysis and the accompanying project presentation.
 
-The SQL queries in this repository will therefore be reconstructed from the original project evidence and clearly documented rather than presented as the original SQL files.
+The presentation documents the business context, analytical questions, findings, and recommendations from the project.
 
 ## Project Presentation
 
-The original capstone presentation is included in the `presentation` folder.
+The original SQL capstone presentation is included in the `presentation` folder.
+
+## Repository Structure
+
+```text
+employee-success-analytics-sql/
+│
+├── README.md
+│
+├── sql/
+│   ├── 01_employee_retention.sql
+│   ├── 02_employee_performance.sql
+│   └── 03_salary_analysis.sql
+│
+├── presentation/
+│   └── Employee_Success_Analytics_Presentation.pdf
+│
+└── insights/
+    └── key-findings.md
+```
 
 ## Author
 
